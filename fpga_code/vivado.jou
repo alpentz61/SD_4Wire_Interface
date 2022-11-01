@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat May  8 19:49:35 2021
+# Process ID: 13776
+# Current directory: C:/Projects/SD_4Bit_FPGA_QuadSpi/sdmode_quad_spi
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13248 C:\Projects\SD_4Bit_FPGA_QuadSpi\sdmode_quad_spi\sdmode_quad_spi.xpr
+# Log file: C:/Projects/SD_4Bit_FPGA_QuadSpi/sdmode_quad_spi/vivado.log
+# Journal file: C:/Projects/SD_4Bit_FPGA_QuadSpi/sdmode_quad_spi\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Projects/SD_4Bit_FPGA_QuadSpi/sdmode_quad_spi/sdmode_quad_spi.xpr
+update_compile_order -fileset sources_1

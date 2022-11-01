@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CMOD_Generic
+D Generic header for Xilinx CMOD breakout boards, such as CMOD A7 and CMOD C2
+K FPGA DIP breakout board
+F ~
+$ENDCMP
+#
+$CMP EK-TM4C1294XL_RevD_Breadboard_Header
+D 98 Pin Two Row Header to attach the breadboard to a femail PCB DIP header.
+K connector
+F ~
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,13 @@
+/.metadata/
+/fpga_code/sdmode_quad_spi.hbs/
+/fpga_code/sdmode_quad_spi.cache/
+/fpga_code/sdmode_quad_spi.hw
+/fpga_code/sdmode_quad_spi.ip_user_files/
+/fpga_code/sdmode_quad_spi.runs/
+/fpga_code/sdmode_quad_spi.sim/
+/tm4c1294_firmware/.jxbrowser-data/
+/tm4c1294_firmware/.metadata/
+/tm4c1294_firmware/dvt/
+/tm4c1294_firmware/RemoteSystemsTempFiles/
+/tm4c1294_firmware/sd_4wire_tm4c_driver/Debug/
+
