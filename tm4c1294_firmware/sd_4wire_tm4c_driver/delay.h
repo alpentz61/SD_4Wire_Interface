@@ -1,6 +1,9 @@
 /*
  * delay.h
  *
+ * A single header file which provides more convenient macros for dealing
+ * with the system delay loop functions.
+ *
  *  Created on: Jul 28, 2019
  *      Author: Andrew
  */
@@ -8,6 +11,7 @@
 #define DEBUG_DELAY_H_
 
 #include "driverlib/sysctl.h"
+
 extern uint32_t MAIN_sys_clock;
 
 #define DELAY_S(delay_s)    SysCtlDelay(delay_s * (MAIN_sys_clock / 3))

@@ -1,6 +1,9 @@
 /*
- * bare_led.c: Implements a demo of turning the LED on using only direct
- * memory control
+ * led.c:
+ *
+ * Implements a demo of turning the LED on using only direct register access.
+ * We could easily use the library for this, but this is a first step of direct
+ * register access in the TM4C.
  *
  *  Created on: Jul 6, 2019
  *      Author: Andrew
@@ -8,6 +11,7 @@
 
 #include <stdint.h>
 #include <stdbool.h>
+
 #include "inc/tm4c1294kcpdt.h"
 
 void led_init(void)
@@ -24,9 +28,8 @@ void led_init(void)
     //Set the direction of Port 1 to output (all others inputs)
     GPIO_PORTN_DIR_R = 0x00000002;
 
-    //Set AFSEL to GPIO
-    // Note: Not needed for setting an pin as an GPIO (this is default)
-    // Also note: AFSEL is one of the Lock / Commit protected registers.
+    // Set AFSEL to GPIO (alternate function selection).
+    // Note: Not needed for setting a pin as an GPIO (this is the default setting)
 
     //Set drive strengths:
     //Disable 2ma drive for pin 1, and enable 8ma drive instead

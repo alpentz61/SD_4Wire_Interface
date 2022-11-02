@@ -1,6 +1,8 @@
 /*
  * bare_led.h
  *
+ * Implements a demo of turning the LED on using only direct register access.
+ *
  *  Created on: Jul 7, 2019
  *      Author: Andrew
  */
